@@ -1,0 +1,39 @@
+Query sakila data with MySQL
+
+Analyze with Python (pandas, matplotlib, etc.)
+
+Visualize insights (and later push them to Tableau).
+
+Here are some starter questions for data analytics practice:
+
+🔍 Basic Data Extraction
+
+How many films are in the film table?
+
+List the top 10 films with the longest rental duration.
+
+Get the total number of customers.
+
+Find the number of rentals each store has.
+
+📊 Basic Analysis in Python
+
+Which categories of movies (e.g., Action, Comedy) are most common?
+
+What’s the average rental rate of films in each category?
+
+Which actors appear in the most films?
+
+Which customers have rented the most films?
+
+📈 Visualization Ideas for Tableau
+
+Plot rentals per month for the year 2006.
+
+Show top 5 most rented movies.
+
+Create a pie chart of film categories by number of films.
+
+Build a bar chart of revenue per store.
+
+Would you like me to give you the exact SQL queries for these first, or walk you through the Python workflow (MySQL → Pandas → Visualization) step by step? 🎨
