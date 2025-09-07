@@ -13,7 +13,7 @@ data=cursor.fetchall()
 df=pd.DataFrame(data, columns=["First Name", "Last Name","ApearsInMovies"])
 df["Full Name"]=df["First Name"]+" "+df["Last Name"]
 df=df[["Full Name", "ApearsInMovies"]]
-df.to_excel(r"D:\BSIT\Python libraries\reports\actorApearsInMovies.xlsx",index=False)
+df.to_excel(r"D:\BSIT\Python libraries\Data-Analytics\reports\actorApearsInMovies.xlsx",index=False)
 print(" File saved")
 cursor.close()
 conn.close()
