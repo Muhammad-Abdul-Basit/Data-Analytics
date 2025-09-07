@@ -11,5 +11,5 @@ cursor.execute("""
                     """)
 data=cursor.fetchall()
 dataFile=pd.DataFrame(data, columns=["Rental Month", "Total Rentals"])
-dataFile.to_excel(r"D:\BSIT\Python libraries\reports\rentalsperMonth.xlsx",index=False)
+dataFile.to_excel(r"D:\BSIT\Python libraries\Data-Analytics\reports\rentalsperMonth.xlsx",index=False)
 print("File saved")

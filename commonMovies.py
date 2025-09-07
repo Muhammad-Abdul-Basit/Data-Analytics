@@ -9,7 +9,7 @@ cursor.execute("""Select c.name AS category, Count(f.film_id) AS TotalMovies FRO
                ORDER BY TotalMovies desc""")
 category=cursor.fetchall()
 df=pd.DataFrame(category, columns=["category", "TotalMovies"])
-df.to_excel(r"D:\BSIT\Python libraries\reports\categories_count.xlsx")
+df.to_excel(r"D:\BSIT\Python libraries\Data-Analytics\reports\categories_count.xlsx")
 print("file saved")
 for category, TotalMovies in category:
     print(category, " category has : ", TotalMovies)

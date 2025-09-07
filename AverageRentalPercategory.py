@@ -8,5 +8,5 @@ cursor.execute("""select c.name, AVG(rental_rate) As averageRentalRate from cate
                   GROUP BY c.name""")
 data=cursor.fetchall()
 df=pd.DataFrame(data,columns=["name", "averageRentalRate"])
-df.to_excel(r"D:\BSIT\Python libraries\reports\AverageRentalPercategory.xlsx")
+df.to_excel(r"D:\BSIT\Python libraries\Data-Analytics\reports\AverageRentalPercategory.xlsx")
 print("File saved")

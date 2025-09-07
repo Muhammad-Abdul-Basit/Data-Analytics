@@ -11,5 +11,5 @@ cursor.execute(
 )
 data=cursor.fetchall()
 dataFile=pd.DataFrame(data, columns=["Movie Title", "Total Rent"])
-dataFile.to_excel(r"D:\BSIT\Python libraries\reports\highRentalrateMovies.xlsx",index=False)
+dataFile.to_excel(r"D:\BSIT\Python libraries\Data-Analytics\reports\highRentalrateMovies.xlsx",index=False)
 print(" File saved")
